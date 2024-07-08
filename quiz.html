@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CIT Quiz</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"/>
+  <!-- Include Bootstrap Icons CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"/> 
+  <!--Font Awesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" >
+  <!-- Include Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/x-icon" href="32x32.ico">
+</head>
+<body>
+  <header>
+    <h1>CIT 312 QUIZ</h1>
+
+</header>
+<div>
+
+  <a class="hamburger" href="#navbar">
+
+    <i class="fa fa-bars"></i>
+
+  </a>
+
+  <nav id="navbar">
+
+    <ul>
+
+      <li><a href="index.html">Home</a></li>
+
+      <li><a href="quiz.html">Quiz</a></li>
+
+      <li><a href="https://iu.instructure.com/courses/2214200/modules">CIT 312 Modules</a></li>
+
+      <li><a href="https://github.iu.edu/dginter">Github</a></li>
+
+    </ul>
+
+    <a class="close" href="#">
+
+      <i class="fa fa-close"></i>
+
+    </a>
+
+  </nav>
+
+</div>
+
+
+
+  <div class="container container-fluid">
+<!--INTERACTIVE QUIZ USING BOOTSTRAP FORMS-->
+
+<!--BOOTSTRAP ELEMENT USED 1-->
+
+    <form id="quiz-form" aria-labelledby="quiz-title">
+    <!-- 1 -->
+<div class="form-group">
+    <label for="q1"><p style="font-weight: bolder;">Question 1:</p> What does HTML stand for?</label>
+    <select class="form-control" id="q1"aria-label="Select your answer for question 1">
+      <option value="">Select an answer</option>
+      <option value="a">Home Tool Markup Language</option>
+      <option value="b">Highly Typed Markup Language</option>
+      <option value="c">Hyper Text Markup Language</option>
+    </select>
+    <div class="feedback feedback-q1"></div>
+  </div>
+<br>
+  
+  <!-- 2 -->
+  <div class="form-group">
+    <label for="q2"><p style="font-weight: bolder;">Question 2:</p> Which programming language is used for web development?</label>
+    <select class="form-control" id="q2" aria-label="Select your answer for question 2">
+      <option value="">Select an answer</option>
+      <option value="a">Java</option>
+      <option value="b">Python</option>
+      <option value="c">JavaScript</option>
+    </select>
+    <div class="feedback feedback-q2"></div>
+  </div>
+<br>
+
+<!-- 3 -->
+  <div class="form-group">
+    <label for="q3"><p style="font-weight: bolder;">Question 3:</p> The Bootstrap grid is built with CSS flex box. The number of columnar units in a Boostrap row spans from 0 to ...?</label>
+    <select class="form-control" id="q3"aria-label="Select your answer for question 3">
+      <option value="">Select an answer</option>
+      <option value="a"> This is a quantity defined by the SASS variable, $col_limit</option>
+      <option value="b">There is 1 column in a row, this is divided up according to a ratio specified in the row style</option>
+      <option value="c">The number of units a set of columns in a given row can span, is 12</option>
+    </select>
+    <div class="feedback feedback-q3"></div>
+  </div>
+<br>
+
+  <!-- 4 -->
+  <div class="form-group">
+    <label for="q4"><p style="font-weight: bolder;">Question 4:</p> What happens, visually, to column elements in a Bootstrap grid, if they cannot fit in a given row?</label>
+    <select class="form-control" id="q4" aria-label="Select your answer for question 4">
+      <option value="">Select an answer</option>
+      <option value="a"> The columns grow, as they are flexbox elements </option>
+      <option value="b">None of the columns are displayed to prevent overflow </option>
+      <option value="c">The columns stack </option>
+    </select>
+    <div class="feedback feedback-q4"></div>
+  </div>
+<br>
+
+  <!-- 5 -->
+  <div class="form-group">
+    <label for="q5"><p style="font-weight: bolder;">Question 5:</p> The Bootstrap classes are included by default in HTML. This was part of CSS3, released in 2021.</label>
+    <select class="form-control" id="q5"aria-label="Select your answer for question 5">
+      <option value="">Select an answer</option>
+      <option value="a">True</option>
+      <option value="b">False</option>
+    </select>
+    <div class="feedback feedback-q5"></div>
+  </div>
+<br>
+  <!-- 6 -->
+  <div class="form-group">
+    <label for="q6"><p style="font-weight: bolder;">Question 6:</p> Font Awesome is best described as ...</label>
+    <select class="form-control" id="q6"aria-label="Select your answer for question 6">
+      <option value="">Select an answer</option>
+      <option value="a">A W3C endorsed set of JavaScript, with associated images</option>
+      <option value="b"> A set of rules governing how fonts and cons are used on the web</option>
+      <option value="c">A collection of fonts and icons</option>
+    </select>
+    <div class="feedback feedback-q6"></div>
+  </div>
+<br>
+  <!-- 7 -->
+  <div class="form-group">
+    <label for="q7"><p style="font-weight: bolder;">Question 7:</p> You are in charge of re-designing a menu bar for your company, and you have been asked to use CSS to give feedback to the user, when the user tabs between menu options, hovers over menu options and more.
+    What does this mean in terms of professional web design?</label>
+    <select class="form-control" id="q7" aria-label="Select your answer for question 7">
+      <option value="">Select an answer</option>
+      <option value="a">This means that JavaScript has to be used because this is the only way that the web page can be interactive</option>
+      <option value="b">A media query should be used to best reflect where the user focus is on the web page</option>
+      <option value="c">You can use pseudo-classes to target specific behaviour for the menu items</option>
+    </select>
+    <div class="feedback feedback-q7"></div>
+  </div>
+<br>
+
+  <!-- 8 -->
+  <div class="form-group">
+    <label for="q8"><p style="font-weight: bolder;">Question 8:</p> When placing elements on a web page, how would you selectively reveal or hide specific elements</label>
+    <select class="form-control" id="q8" aria-label="Select your answer for question 8">
+      <option value="">Select an answer</option>
+      <option value="a">use a translation to move an element off the screen, and back on</option>
+      <option value="b">set the display property to none, and then reverse this</option>
+      <option value="c">all of the above!</option>
+    </select>
+    <div class="feedback feedback-q8"></div>
+  </div>
+<br>
+
+  <!-- 9  -->
+  <div class="form-group">
+    <label for="q9"><p style="font-weight: bolder;">Question 9: </p>Which programming language is used for web development?</label>
+    <select class="form-control" id="q9" aria-label="Select your answer for question 9" >
+      <option value="">Select an answer</option>
+      <option value="a">Java</option>
+      <option value="b">Python</option>
+      <option value="c">JavaScript</option>
+    </select>
+    <div class="feedback feedback-q9"></div>
+  </div>
+<br>
+
+  <!-- 10 -->
+  <div class="form-group">
+    <label for="q10"><p style="font-weight: bolder;">Question 10:</p>Which programming language is used for web development?</label>
+    <select class="form-control" id="q10" aria-label="Select your answer for question 10">
+      <option value="">Select an answer</option>
+      <option value="a">Java</option>
+      <option value="b">Python</option>
+      <option value="c">JavaScript</option>
+    </select>
+    <div class="feedback feedback-q10"></div>
+  </div>
+<br>
+
+
+<!--BOOTSTRAP ELEMENT USED 2-->
+  <button type="button" id="submit-quiz" class="btn btn-primary">Submit Quiz</button>
+
+  
+<!--JQUERY JS-->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" defer></script>
+
+ <!-- BOOTSTRAP JS -->
+ <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" defer></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" defer></script>
+ <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<!--SCRIPT JS-->
+<script src="script.js" defer></script>
+
+
+</body>
+</html>
+
+<!--References:
+https://iu.instructure.com/courses/2214200/pages/what-is-a-favicon?module_item_id=31662683
+https://iu.instructure.com/courses/2214200/pages/using-font-awesome?module_item_id=31662687
+https://getbootstrap.com/docs/4.0/components/forms/
+https://marcom.purdue.edu/our-brand/visual-identity/
+https://iu.instructure.com/courses/2214194/pages/case-study-trader-mos-fearless-digital-flyer?module_item_id=31657103
+https://iu.instructure.com/courses/2214194/pages/removing-and-restyling-items-with-jquery?module_item_id=31657102
+https://iu.instructure.com/courses/2214194/assignments/15810067?module_item_id=31657107
+https://getbootstrap.com/docs/5.0/forms/validation/
+
+-->

@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOMEPAGE</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"/>
+    <!-- Include Bootstrap Icons CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"/> 
+    <!-- Include Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap" rel="stylesheet"/>
+    <!-- Include Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" >
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="32x32.ico">
+</head>
+<body>
+    
+    <header>
+        <h1>Homepage</h1>
+    </header>
+    
+  
+    <div>
+
+      <a class="hamburger" href="#navbar">
+
+        <i class="fa fa-bars"></i>
+
+      </a>
+
+      <nav id="navbar">
+
+        <ul>
+
+          <li><a href="index.html">Home</a></li>
+
+          <li><a href="quiz.html">Quiz</a></li>
+
+          <li><a href="https://iu.instructure.com/courses/2214200/modules">CIT 312 Modules</a></li>
+
+          <li><a href="https://github.iu.edu/dginter">Github</a></li>
+
+        </ul>
+
+        <a class="close" href="#">
+
+          <i class="fa fa-close"></i>
+
+        </a>
+
+      </nav>
+
+    </div>
+
+
+    <!-- FLIP CARD PORTION USING BOOTSTRAP CARDS -->
+    <!--BOOTSTRAP ELEMENT USED 3-->
+    <div class="container container-fluid">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="software.png" alt="Software Image">
+                            <h3>SOFTWARE</h3>
+                            <p aria-label="Hover to flip" role="button">Hover to flip</p>
+                        </div>
+                        <div class="flip-card-back">
+                            <h3>What is Software?</h3>
+                            <p>Software is a set of instructions, data or programs used to operate computers and execute specific tasks. 
+                              It is the opposite of hardware, which describes the physical aspects of a computer. 
+                              Software is a generic term used to refer to applications, scripts and programs that run on a device. 
+                              It can be thought of as the variable part of a computer, while hardware is the invariable part.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="networking.png" alt="Networking Image">
+                            <h3>NETWORKING</h3>
+                            <p aria-label="Hover to flip" role="button">Hover to flip</p>
+                        </div>
+                        <div class="flip-card-back">
+                            <h3>What is Networking?</h3>
+                            <p>Networking is the process of making connections and building relationships. 
+                              These connections can provide you with advice and contacts, which can help you make informed career decisions. 
+                              Networking can even help you ﬁnd unadvertised jobs/internships. Networking can take place in a group or one-on-one setting.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 mt-3">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="dataman.png" alt="Data Management Image">
+                            <h3>DATA MANAGEMENT</h3>
+                            <p aria-label="Hover to flip" role="button">Hover to flip</p>
+                        </div>
+                        <div class="flip-card-back">
+                            <h3>What is Data Management?</h3>
+                            <p>Data management is the practice of collecting, keeping, and using data securely, efficiently, and cost-effectively. 
+                              The goal of data management is to help people, organizations, and connected things optimize the use of data within the bounds of policy and regulation so that they can make decisions and 
+                              take actions that maximize the benefit to the organization. 
+                              A robust data management strategy is becoming more important than ever as organizations increasingly rely on intangible assets to create value.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 mt-3">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="cybersecurity.png" alt="Cybersecurity Image">
+                            <h3>CYBERSECURITY</h3>
+                            <p aria-label="Hover to flip" role="button">Hover to flip</p>
+                        </div>
+                        <div class="flip-card-back">
+                            <h3>What is Cybersecurity?</h3>
+                            <p>Cybersecurity is the art of protecting networks, devices, and data from unauthorized access or criminal use and the practice of ensuring confidentiality, integrity, 
+                              and availability of information. It seems that everything relies on computers and the internet now—communication (e.g., email, smartphones, tablets), 
+                              entertainment (e.g., interactive video games, social media, apps ), transportation (e.g., navigation systems), shopping (e.g., online shopping, credit cards), 
+                              medicine (e.g., medical equipment, medical records), and the list goes on.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!--BOOTSTRAP ELEMENT USED 4-->
+    <div class="containerBottom container-fluid">
+        <header style="border-radius: 20px;"><h1>Applied Computing</h1></header>
+
+        <div class="container-fluid">
+            <div class="row">
+                <!-- Carousel Area -->
+                <div class="col carousel-area">
+                    <div id="course_carousel" class="carousel carousel-light" data-bs-ride="carousel" data-bs-interval="5000">
+                        <!-- Carousel Indicators -->
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#course_carousel" data-bs-slide-to="0" class="active"></button>
+                            <button type="button" data-bs-target="#course_carousel" data-bs-slide-to="1"></button>
+                            <button type="button" data-bs-target="#course_carousel" data-bs-slide-to="2"></button>
+                            <button type="button" data-bs-target="#course_carousel" data-bs-slide-to="3"></button>
+                        </div>
+                        <!-- Carousel Inner -->
+                        <div class="carousel-inner">
+                            <!-- 1 -->
+                            <div class="carousel-item active">
+                                <img class="d-block w-100" src="innobuild.jpg" alt="Lips">
+                                <div class="carousel-caption">
+                                    <h2>Coding Classes</h2>
+                                    <p>Make sure to sign up for Fall 2024 Courses</p>
+                                    <br>
+                                    <button class="btn btn-md btn-primary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="right" title="CIT 312" data-bs-content="Monday on Campus from 1:30pm to 2:45pm. Location is 625 W Michigan St, Indianapolis, IN 46202 in room IO240">
+                                        <span><i class="bi bi-braces"></i></span>
+                                        <span style="margin-left:10px">Class Times</span>
+                                    </button>
+                                </div>
+                            </div>
+                            <!-- 2 -->
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="0_7tx-MYQYPwzo1MPi.png" alt="Space">
+                                <div class="carousel-caption">
+                                    <h2>Bootstrap</h2>
+                                    <p>Want to learn more about Bootstrap? Click the link below to be sent to their website! </p>
+                                    <br>
+                                    <a href="https://getbootstrap.com/" class="btn btn-md btn-primary" role="button">
+                                        <span><i class="bi bi-bootstrap"></i></span>
+                                        <span style="margin-left:10px">Learn more here!</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- 3 -->
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="cit_logo_color_transparent.png" alt="Pineapple">
+                                <div class="carousel-caption">
+                                    <h2>Summer is Almost Here!</h2>
+                                    <p>Summer is just around the corner! But don't forget your studies over break!</p>
+                                    <br>
+                                    <button class="btn btn-primary" data-togle="tooltip" data-placement="bottom" title="Make sure to brush up and practice!">
+                                        <span><i class="bi bi-brightness-alt-high-fill"></i></span>
+                                        <span style="margin-left:10px">Summer Tips</span>
+                                    </button>
+                                </div>
+                            </div>
+                            <!-- 4 -->
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="Purdue-University-logo.png" alt="Piccata">
+                                <div class="carousel-caption">
+                                    <h2>The Purdue Switch!</h2>
+                                    <p>Have you gotten your Purdue Career account set up? It's important if you do!</p>
+                                    <button type="button" class="btn btn-md btn-primary" data-bs-toggle="modal" data-bs-target="#reflectionModal">
+                                        <span><i class="bi bi-bank2"></i></span><span style="margin-left:10px">What is a Purdue Career Account?</span>
+                                    </button>
+                                    <div class="modal fade" id="reflectionModal" tabindex="-1" aria-labelledby="reflectionsModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="reflectionsModalLabel">Important!</h5>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <p>
+                                                      Newly admitted students in Purdue graduate degree programs at IUPUI will receive an IU student ID number during the admission process.  Purdue ID number and career account credentials will not be provided until the second half of the first semester of graduate enrollment.  The delay is due to IUPUI and Purdue having different, disconnected student information systems.  The first time Purdue credentials are needed is to generate your Purdue Plan of Study for master’s and PhD programs – rarely required before the 2nd semester of study (Graduate Certificates do not utilize an electronic Plan of Study). 
+                                                    </p>
+                                                    <a href="chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://graduate.iupui.edu/doc/Purdue/Career%20Account%20Setup%20Instructions.pdf" class="btn btn-md btn-primary" role="button">
+                                                      <span><i class="bi bi-pencil"></i></span>
+                                            <span style="margin-left:10px">Learn more here!</span>
+                                                    </a>
+                                                    
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Carousel controls -->
+                        <button class="carousel-control-prev" type="button" data-bs-target="#course_carousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#course_carousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ACCORDIAN -->
+    <!--BOOTSTRAP ELEMENT USED-->
+    <div>
+        <h3 style="padding-top:20px;padding-bottom:20px;padding-left:10px;">Careers in the CIT Field</h3>
+        <!-- Accordion -->
+        <div class="row accordion-area">
+            <div class="accordion" id="accordionInfo">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Mobile Apps Developer
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne">
+                        <div class="accordion-body">
+                            <p>
+                                A mobile apps developer designs and creates applications for use on mobile devices such as smartphones and tablets, 
+                                often specializing in iOS, Android, or cross-platform development. 
+                                They code, test, and debug software to ensure smooth functionality and a great user experience.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Dev Ops Engineer
+                  </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingTwo">
+                  <div class="accordion-body">
+                      <p>
+                        A DevOps Engineer is responsible for bridging the gap between software development and operations, ensuring seamless integration and automation throughout the software development lifecycle. 
+                        They design, implement, and maintain the infrastructure and tools necessary for deploying and managing applications efficiently.  
+                      </p>
+                  </div>
+              </div>
+          </div>
+             <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Software Developer
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingThree">
+                        <div class="accordion-body">
+                            <p>A Software Developer designs, develops, and maintains software applications, using various programming languages and tools to meet specific project requirements. 
+                              They collaborate with stakeholders to understand needs, write code, conduct testing, and continuously improve software products.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+               <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFour">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Cybersecurity Expert
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingFour">
+                        <div class="accordion-body">
+                            <p>
+                              A Cybersecurity Expert safeguards digital systems and data from unauthorized access, breaches, and attacks, by implementing security measures and best practices. 
+                              They continuously monitor for vulnerabilities, analyze threats, and develop strategies to mitigate risks and protect sensitive information.
+                                
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+               <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFive">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Web Programmer
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingFive">
+                        <div class="accordion-body">
+                            <p>
+                              A Web Programmer is responsible for creating and maintaining dynamic and interactive websites, utilizing various programming languages such as HTML, CSS, JavaScript, and backend frameworks like Node.js. 
+                              They collaborate with web designers and clients to implement features, troubleshoot issues, and optimize performance for an engaging user experience.
+                               
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+               <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingSix">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Database Administrator
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingSix">
+                        <div class="accordion-body">
+                            <p>A Database Administrator manages and maintains databases, ensuring their security, performance, and availability. 
+                              They design, implement, and troubleshoot database systems, optimize queries, and oversee data backup and recovery processes.
+                                
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingSeven">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Consultant
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingSeven">
+                        <div class="accordion-body">
+                            <p>
+                              A programming Consultant provides expertise and guidance on software development projects, offering solutions to technical challenges and advising on best practices. 
+                              They collaborate with clients to understand requirements, design architecture, and provide recommendations for optimizing code efficiency and maintainability.
+                               
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+               <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingEight">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Security Analyst
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingEight">
+                        <div class="accordion-body">
+                            <p>
+                              A Security Analyst specializing in programming assesses software systems for vulnerabilities, analyzing code and identifying potential security risks. 
+                              They develop and implement security measures, such as encryption protocols or access controls, to protect against cyber threats and ensure the integrity and confidentiality of data.
+                                
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+               <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingNine">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Web Developer
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingNine">
+                        <div class="accordion-body">
+                            <p>
+                              A Web Developer designs and builds websites and web applications using programming languages like HTML, CSS, and JavaScript. 
+                              They collaborate with clients and designers to create responsive and visually appealing web interfaces while ensuring functionality and usability across various devices and browsers.
+                                
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+               <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTen">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Data Analyst
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingTen">
+                        <div class="accordion-body">
+                            <p>A Data Analyst utilizes programming languages such as Python or R to collect, clean, and analyze large datasets, extracting valuable insights to inform business decisions. 
+                              They develop scripts and algorithms to automate data processing tasks and create visualizations for effective communication of findings to stakeholders.
+                                
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingEleven">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Coder
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingEleven">
+                        <div class="accordion-body">
+                            <p>A Coder writes, tests, and debugs computer programs, using programming languages like Python, Java, or C++. 
+                              They translate software design into executable code, ensuring functionality and efficiency in various applications, from web development to software engineering.
+                                
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+               <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwelve">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Instructor
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingTwelve">
+                        <div class="accordion-body">
+                            <p>
+                              An Instructor in programming educates students on coding languages, concepts, and best practices, guiding them through practical exercises and projects to build their skills. 
+                              They create curriculum, deliver lectures, and provide individualized assistance to help students grasp programming fundamentals and advance their proficiency.
+                               
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+               <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThirteen">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Technical Writer
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingThirteen">
+                        <div class="accordion-body">
+                            <p>A Technical Writer specializing in programming creates documentation such as user guides, API references, and tutorials to help users understand software products and coding libraries. 
+                              They translate complex technical concepts into clear and concise language, ensuring accuracy and accessibility for developers and end-users.
+                              
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+               <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFourteen">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Test Engineer
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingFourteen">
+                        <div class="accordion-body">
+                            <p>
+                              A Test Engineer in programming designs and implements automated tests to ensure the quality and functionality of software applications. 
+                              They develop test scripts, conduct test cases, and analyze results, identifying and reporting bugs to facilitate debugging and improve the overall software quality.
+                                
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFifteen">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            UX/UI Designer
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingFifteen">
+                        <div class="accordion-body">
+                            <p>A UX/UI Designer related to programming creates intuitive user interfaces and experiences for software applications, focusing on usability, accessibility, and visual appeal. 
+                              They collaborate with developers to implement designs using programming languages like HTML, CSS, and JavaScript, ensuring seamless integration and a delightful user experience.
+                                
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+               <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingSixteen">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Network Architect
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingSixteen">
+                        <div class="accordion-body">
+                            <p>
+                              A Network Architect related to programming designs and develops network infrastructure solutions using programming skills to automate and optimize network processes. 
+                              They use languages like Python to create scripts for network automation, ensuring efficient management and scalability of network resources.
+                               
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+               <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingSeventeen">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Hardware Engineer
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingSeventeen">
+                        <div class="accordion-body">
+                            <p>
+                              A Hardware Engineer related to programming designs and develops hardware systems, utilizing programming languages like Verilog or VHDL to create and simulate digital circuits. 
+                              They write code to control and interface with hardware components, ensuring functionality, efficiency, and compatibility with software systems.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+               <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingEighteen">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Network Administrator
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingEighteen">
+                        <div class="accordion-body">
+                            <p>A Network Administrator related to programming configures and maintains network infrastructure, utilizing scripting languages such as Python or PowerShell to automate tasks like network monitoring and configuration management. 
+                              They write scripts to streamline processes, troubleshoot issues, and enhance network security, ensuring optimal performance and reliability.
+                               
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingNineteen">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                           Data Research Scientist
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingNineteen">
+                        <div class="accordion-body">
+                            <p>A Data Research Scientist related to programming applies advanced programming skills to analyze large datasets and develop predictive models for research purposes. 
+                              They use languages like Python to clean, preprocess, and manipulate data, employing machine learning algorithms to extract meaningful insights and support data-driven decision-making.
+                                
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+               <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwenty">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Full Stack Developer
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingTwenty">
+                        <div class="accordion-body">
+                            <p>
+                              A Full Stack Developer related to programming is responsible for developing both the front-end and back-end components of web applications. 
+                              They utilize programming languages like JavaScript, along with frameworks like React.js or Node.js, to create interactive user interfaces and design robust server-side architecture, ensuring seamless functionality and user experience.
+                                
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+               <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwentyOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Web Architect
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingTwentyOne">
+                        <div class="accordion-body">
+                            <p>
+                              A Web Architect related to programming designs and oversees the technical architecture of web-based systems, ensuring scalability, performance, and security. 
+                              They use programming languages and frameworks to develop architectural solutions, define coding standards, and guide development teams in implementing best practices for efficient web development.
+                                
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+               <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwentyTwo">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Games Developer
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingTwentyTwo">
+                        <div class="accordion-body">
+                            <p>
+                              A Games Developer related to programming designs and codes interactive gameplay elements, mechanics, and systems using programming languages like C++ or UnityScript. 
+                              They collaborate with artists and designers to integrate graphics and audio, ensuring smooth gameplay and an immersive gaming experience.
+                                
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwentyThree">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Industry Analyst
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingTwentyThree">
+                        <div class="accordion-body">
+                            <p>
+                              An Industry Analyst related to programming conducts research and analysis on trends, technologies, and market dynamics within the software development sector. 
+                              They provide insights and reports to businesses and stakeholders, helping them make informed decisions regarding investments, product development, and strategic planning in the tech industry.
+                               
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+               <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwentyFour">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Chief Information Officer
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingTwentyFour">
+                        <div class="accordion-body">
+                            <p>
+                              As the Chief Information Officer related to programming, you oversee the strategic planning and implementation of technology systems within an organization. 
+                              You also ensure alignment between IT initiatives and business goals, leveraging programming knowledge to optimize software solutions and drive innovation across departments.
+                                
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    </body>
+
+    <br>
+
+    <!-- JQUERY JS -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" defer></script>
+    
+    <!-- BOOTSTRAP JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+      
+    <!-- SCRIPT JS -->
+    <script src="script.js" defer></script>
+</body>
+</html>
+
+
+<!--Reference
+https://www.linkedin.com/
+https://developer.mozilla.org/en-US/
+https://www.cisa.gov/news-events/news/what-cybersecurity
+https://www.oracle.com/database/what-is-data-management/
+https://www.careereducation.columbia.edu/resources/what-networking-and-why-do-you-need-do-it
+https://www.techtarget.com/searchapparchitecture/definition/software
+https://www.w3schools.com/jsref/event_onclick.asp
+-->
