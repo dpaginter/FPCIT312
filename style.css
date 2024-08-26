@@ -34,7 +34,7 @@ nav > ul {
 
 nav ul li {
   padding: 15px;
-  border-bottom: 1px solid #555555;
+  border-bottom: 1px solid #555960;
 }
 
 nav ul li a {
@@ -43,7 +43,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #ffc107;
+  color: #daaa00;
 }
 
 
@@ -80,6 +80,7 @@ label{
 img{
   height:300px;
   width: 300px;
+  object-fit: cover;
 }
 
 .flip-card {
